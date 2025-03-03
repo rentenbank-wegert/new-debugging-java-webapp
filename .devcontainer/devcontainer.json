@@ -34,7 +34,7 @@
 				//]
 
 				"extensions": [
-					"redhat.vscode-community-server-connector"
+				//	"redhat.vscode-community-server-connector"
 				]
 			}
 		}
