@@ -17,14 +17,20 @@
 		
 
 	}
+
+//	,"extensions": [
+//			"redhat.vscode-community-server-connector"
+//	]
+
+
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
 	// "forwardPorts": [],
 	// Use 'postCreateCommand' to run commands after the container is created.
 	// "postCreateCommand": "java -version",
-	,"postCreateCommand": "echo \"This file was added by the postCreateCommand.\" > TEMP.md"
+	,"postCreateCommand": "sh ./.devcontainer/postCreateCommand.sh > ./.devcontainer/postCreateCommand.log"
 	// Configure tool-specific properties.
 	// "customizations": {},
-		,"customizations": { /*  */
+	,"customizations": { /*  */
 			// Configure properties specific to VS Code.
 			"vscode": {
 				// Add the IDs of extensions you want installed when the container is created.
@@ -32,12 +38,11 @@
 				//	"streetsidesoftware.code-spell-checker",
 				//	"vscjava.vscode-java-pack"
 				//]
-
 				"extensions": [
-					 "redhat.vscode-community-server-connector"
+						"redhat.vscode-community-server-connector"
 				]
 			}
-		}
+	}
 
 	// Uncomment to connect as root instead. More info: https://aka.ms/dev-containers-non-root.
 	// "remoteUser": "root"
