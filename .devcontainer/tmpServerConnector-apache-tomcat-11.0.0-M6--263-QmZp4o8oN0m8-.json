@@ -1,0 +1,24 @@
+{
+  "args.override.boolean": "false",
+  "args.program.override.string": "start",
+  "args.shutdown.program.override.string": "stop",
+  "args.shutdown.vm.override.string": "-Djava.util.logging.config.file=\"/home/vscode/.rsp/redhat-community-server-connector/runtimes/installations/tomcat-11.0.0-M6/apache-tomcat-11.0.0-M6/conf/logging.properties\" -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager -Djdk.tls.ephemeralDHKeySize=2048 -Djava.protocol.handler.pkgs=org.apache.catalina.webresources -Dorg.apache.catalina.security.SecurityListener.UMASK=0027 -Dcatalina.base=\"/home/vscode/.rsp/redhat-community-server-connector/runtimes/installations/tomcat-11.0.0-M6/apache-tomcat-11.0.0-M6\" -Dcatalina.home=\"/home/vscode/.rsp/redhat-community-server-connector/runtimes/installations/tomcat-11.0.0-M6/apache-tomcat-11.0.0-M6\" -Djava.io.tmpdir=\"/home/vscode/.rsp/redhat-community-server-connector/runtimes/installations/tomcat-11.0.0-M6/apache-tomcat-11.0.0-M6/temp\"",
+  "args.vm.override.string": "-Djava.util.logging.config.file=\"/home/vscode/.rsp/redhat-community-server-connector/runtimes/installations/tomcat-11.0.0-M6/apache-tomcat-11.0.0-M6/conf/logging.properties\" -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager -Djdk.tls.ephemeralDHKeySize=2048 -Djava.protocol.handler.pkgs=org.apache.catalina.webresources -Dorg.apache.catalina.security.SecurityListener.UMASK=0027 -Dcatalina.base=\"/home/vscode/.rsp/redhat-community-server-connector/runtimes/installations/tomcat-11.0.0-M6/apache-tomcat-11.0.0-M6\" -Dcatalina.home=\"/home/vscode/.rsp/redhat-community-server-connector/runtimes/installations/tomcat-11.0.0-M6/apache-tomcat-11.0.0-M6\" -Djava.io.tmpdir=\"/home/vscode/.rsp/redhat-community-server-connector/runtimes/installations/tomcat-11.0.0-M6/apache-tomcat-11.0.0-M6/temp\"",
+  "id": "apache-tomcat-11.0.0-M6",
+  "id-set": "true",
+  "org.jboss.tools.rsp.server.typeId": "org.jboss.ide.eclipse.as.server.tomcat.110",
+  "server.base.dir": "/home/vscode/.rsp/redhat-community-server-connector/runtimes/installations/tomcat-11.0.0-M6/apache-tomcat-11.0.0-M6",
+  "server.classpath.additions": "",
+  "server.deploy.dir": "${server.base.dir}/webapps/",
+  "server.home.dir": "/home/vscode/.rsp/redhat-community-server-connector/runtimes/installations/tomcat-11.0.0-M6/apache-tomcat-11.0.0-M6",
+  "server.http.host": "localhost",
+  "server.http.port": "8080",
+  "vm.install.path": "",
+  "deployables": {
+    "/workspaces/new-debugging-java-webapp/target": {
+      "label": "/workspaces/new-debugging-java-webapp/target",
+      "path": "/workspaces/new-debugging-java-webapp/target",
+      "options": {}
+    }
+  }
+}

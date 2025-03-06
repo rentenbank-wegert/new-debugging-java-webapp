@@ -1,2 +1,4 @@
 /target/
 /bin/
+.devcontainer/postCreateCommand.log
+.devcontainer/*.gz
