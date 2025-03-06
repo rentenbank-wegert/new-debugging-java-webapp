@@ -1,6 +1,8 @@
 #!/usr/bin/env sh
-echo "test.sh: Hello World!"
-echo "test.sh: Hello World2!"
+echo "Konfiguriere Tomcat Server"
+echo "--------------------------"
+
+cd .devcontainer
 
 wget https://archive.apache.org/dist/tomcat/tomcat-11/v11.0.0-M6/bin/apache-tomcat-11.0.0-M6.tar.gz
 #tar -xzf apache-tomcat-11.0.0-M6.tar.gz

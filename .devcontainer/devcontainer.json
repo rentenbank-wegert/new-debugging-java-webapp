@@ -27,7 +27,7 @@
 	// "forwardPorts": [],
 	// Use 'postCreateCommand' to run commands after the container is created.
 	// "postCreateCommand": "java -version",
-	,"postCreateCommand": "sh ./.devcontainer/postCreateCommand.sh > ./.devcontainer/postCreateCommand.log"
+	,"postCreateCommand": "bash -x ./.devcontainer/postCreateCommand.sh 2>&1 | tee ./.devcontainer/postCreateCommand.log"
 	// Configure tool-specific properties.
 	// "customizations": {},
 	,"customizations": { /*  */
