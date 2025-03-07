@@ -5,7 +5,7 @@ echo "--------------------------"
 cd .devcontainer
 
 wget https://archive.apache.org/dist/tomcat/tomcat-11/v11.0.0-M6/bin/apache-tomcat-11.0.0-M6.tar.gz
-#tar -xzf apache-tomcat-11.0.0-M6.tar.gz
+tar -xzf apache-tomcat-11.0.0-M6.tar.gz
 mkdir -p /home/vscode/.rspWegert001/redhat-community-server-connector/runtimes/installations/
 mv apache-tomcat-11.0.0-M6 /home/vscode/.rspWegert001/redhat-community-server-connector/runtimes/installations/
 
