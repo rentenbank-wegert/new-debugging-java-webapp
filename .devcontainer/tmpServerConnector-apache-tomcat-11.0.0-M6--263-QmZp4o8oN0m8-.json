@@ -15,9 +15,9 @@
   "server.http.port": "8080",
   "vm.install.path": "",
   "deployables": {
-    "/workspaces/new-debugging-java-webapp/target": {
-      "label": "/workspaces/new-debugging-java-webapp/target",
-      "path": "/workspaces/new-debugging-java-webapp/target",
+    "/workspaces/new-debugging-java-webapp/target/my-app-1.0-SNAPSHOT": {
+      "label": "/workspaces/new-debugging-java-webapp/target/my-app-1.0-SNAPSHOT",
+      "path": "/workspaces/new-debugging-java-webapp/target/my-app-1.0-SNAPSHOT",
       "options": {}
     }
   }
